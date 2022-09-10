@@ -1,0 +1,454 @@
+Unity Editor version:    2021.3.9f1 (ad3870b89536)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.5.1 (Build 21G83)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/vsatyadev/Desktop/Workspace/Curved_UI_VR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51074
+Successfully changed project path to: /Users/vsatyadev/Desktop/Workspace/Curved_UI_VR
+/Users/vsatyadev/Desktop/Workspace/Curved_UI_VR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 121.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/vsatyadev/Desktop/Workspace/Curved_UI_VR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) HD Graphics 630 (low power)
+Metal devices available: 2
+0: AMD Radeon Pro 560 (high power)
+1: Intel(R) HD Graphics 630 (low power)
+Using device AMD Radeon Pro 560 (high power)
+Initializing Metal device caps: AMD Radeon Pro 560
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002965 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 122.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.164 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1165ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (868ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (140ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005931 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/vsatyadev/Desktop/Workspace/Curved_UI_VR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/vsatyadev/Desktop/Workspace/Curved_UI_VR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1621ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (146ms)
+		EndReloadAssembly (1191ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (397ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (541ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3427 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (94.7 KB). Loaded Objects now: 3886.
+Memory consumption went from 232.9 MB to 232.8 MB.
+Total: 4.135358 ms (FindLiveObjects: 0.319967 ms CreateObjectMapping: 0.224202 ms MarkObjects: 3.410799 ms  DeleteObjects: 0.179093 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2734.301077 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_heartfull.png
+  artifactKey: Guid(1d4948cb340975049a089512e0d55db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_heartfull.png using Guid(1d4948cb340975049a089512e0d55db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92005a209f4249e216410bbb95af8e5c') in 2.264826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_arrow.png
+  artifactKey: Guid(4461ec9a5cc44e94a9e5e3328e0ea1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_arrow.png using Guid(4461ec9a5cc44e94a9e5e3328e0ea1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049b907aff057ddaa4e333425e35cc2b') in 0.019435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_profilepic.jpg
+  artifactKey: Guid(1ca24597949c7354184c89ed00f75878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_profilepic.jpg using Guid(1ca24597949c7354184c89ed00f75878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc6e493ba035ed391070d572f706813') in 0.196477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_cross.png
+  artifactKey: Guid(2d5a15a342801574faa1555be6aeb52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_cross.png using Guid(2d5a15a342801574faa1555be6aeb52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd03fcf06c2a2a7b9ea6e6d768963db0') in 0.021878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_circle512.png
+  artifactKey: Guid(35e866292b6fced4291b4827053930f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_circle512.png using Guid(35e866292b6fced4291b4827053930f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f455e3a22dd3cacabf9176124818f2') in 0.045303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_share.png
+  artifactKey: Guid(203e6d7e0be3c7d48b77fe119ea3c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_share.png using Guid(203e6d7e0be3c7d48b77fe119ea3c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f13c574168012a00ee451cd1a101d0') in 0.029285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image0.jpg
+  artifactKey: Guid(dc4338bce18c0a842917063439ad30c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image0.jpg using Guid(dc4338bce18c0a842917063439ad30c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8277fa8f4fc1fe92aca6754d729f34d7') in 0.056297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image1.jpg
+  artifactKey: Guid(a5f9e76f8f35b554c8b9c0ee3c84fcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image1.jpg using Guid(a5f9e76f8f35b554c8b9c0ee3c84fcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b64988e1ffbb7d1d8a8d2c4c79e327') in 0.042076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/__blank.png
+  artifactKey: Guid(1c14d986d44a1e44ebe48dd2d166e3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/__blank.png using Guid(1c14d986d44a1e44ebe48dd2d166e3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733405445ea9871be7738a52007a2e6b') in 0.035373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image2.jpg
+  artifactKey: Guid(4d58b4a339a78f949b984ac880c61fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image2.jpg using Guid(4d58b4a339a78f949b984ac880c61fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd830da2f222835c63cc61e3feef384') in 0.061705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_heartstroke.png
+  artifactKey: Guid(d1a648e5201a01a4f81bf03d26d870c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_heartstroke.png using Guid(d1a648e5201a01a4f81bf03d26d870c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ba0124b3529084d99461ca6644ff68') in 0.049585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_selection-circle.png
+  artifactKey: Guid(7d906c9e2617bee489b89f268114fb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_selection-circle.png using Guid(7d906c9e2617bee489b89f268114fb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8590b328a14343d5fb4c9da46e96c4aa') in 0.037204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_imageplaceholder.png
+  artifactKey: Guid(269185afa1036b94eb055cc280df3d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_imageplaceholder.png using Guid(269185afa1036b94eb055cc280df3d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b56fb36550f1d93a3545fbe5c089cc3') in 0.040638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_bluredspaceship2.jpg
+  artifactKey: Guid(66f869436ad3f3e41a8b35aa1d5e7d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_bluredspaceship2.jpg using Guid(66f869436ad3f3e41a8b35aa1d5e7d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1daa4e214b52b85728ec673d61568820') in 0.125768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_boxes.png
+  artifactKey: Guid(303230561df1d3c47bb04082101df0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_boxes.png using Guid(303230561df1d3c47bb04082101df0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f4703fba7091d41d75e5b1c3358adc') in 0.027271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_selection-box.png
+  artifactKey: Guid(99e1b1e2835ee8b42b81dc16683b1a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_selection-box.png using Guid(99e1b1e2835ee8b42b81dc16683b1a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269ba51f8b2f7ff53c2ab14b4e8068a2') in 0.032592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.642114 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_hero.png
+  artifactKey: Guid(11feeab7fc306234b941d696fcb38509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_hero.png using Guid(11feeab7fc306234b941d696fcb38509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077aa88a3457cace5f5a295215f94674') in 0.176250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.666477 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_laserbeam.mat
+  artifactKey: Guid(f9da22ae34fa249c9b5d876eaa40a3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_laserbeam.mat using Guid(f9da22ae34fa249c9b5d876eaa40a3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd241829f5a0fa5dab07a1d08fbefbfa7') in 1.215521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_tmp01.jpg
+  artifactKey: Guid(f2c31004430cee341be9a17eab16e23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_tmp01.jpg using Guid(f2c31004430cee341be9a17eab16e23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad2bc2fdf342d628b434218bac071a9') in 0.041404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_visorbg.jpg
+  artifactKey: Guid(92267aa4e61f70d46bdb0a19ea8fb848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_visorbg.jpg using Guid(92267aa4e61f70d46bdb0a19ea8fb848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efe72fe331a98cd4213e2331dad30a7') in 0.109457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.368418 seconds.
+  path: Assets/CurvedUI/Demo Scenes/04 VRMenuMouse.unity
+  artifactKey: Guid(3391a558826c77242955cba56264e864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/04 VRMenuMouse.unity using Guid(3391a558826c77242955cba56264e864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f28ef676f7793ca9a1e122ab2a7513') in 0.002630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.545455 seconds.
+  path: Assets/CurvedUI/Demo Scenes/01 Inventory.unity
+  artifactKey: Guid(6587f89f0fecf07488ca56ad03898989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/01 Inventory.unity using Guid(6587f89f0fecf07488ca56ad03898989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421b1e59ee9e0ed49624775cd2f1e20c') in 0.002516 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003303 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/vsatyadev/Desktop/Workspace/Curved_UI_VR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/vsatyadev/Desktop/Workspace/Curved_UI_VR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.777 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1778ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1471ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (522ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (657ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (450ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3422 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.2 KB). Loaded Objects now: 3960.
+Memory consumption went from 255.0 MB to 255.0 MB.
+Total: 6.522155 ms (FindLiveObjects: 0.488097 ms CreateObjectMapping: 0.496360 ms MarkObjects: 5.397269 ms  DeleteObjects: 0.139003 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25.290373 seconds.
+  path: Assets/CurvedUI/Demo Scenes/03 Mainframe.unity
+  artifactKey: Guid(faca241add7f99c459f548f9d1e6ca35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/03 Mainframe.unity using Guid(faca241add7f99c459f548f9d1e6ca35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc58dd122e4ecdbbd476871976a4c94') in 0.010366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.308583 seconds.
+  path: Assets/CurvedUI/Demo Scenes/07 3DObjectsOnCanvas.unity
+  artifactKey: Guid(642f1711dfc24644b99ffd22552518b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CurvedUI/Demo Scenes/07 3DObjectsOnCanvas.unity using Guid(642f1711dfc24644b99ffd22552518b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4e492d91676ffb040d6fefe9318a8a') in 0.001600 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003444 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/vsatyadev/Desktop/Workspace/Curved_UI_VR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/vsatyadev/Desktop/Workspace/Curved_UI_VR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.750 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1752ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1424ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (670ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (460ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3422 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.3 KB). Loaded Objects now: 3963.
+Memory consumption went from 254.6 MB to 254.5 MB.
+Total: 5.016913 ms (FindLiveObjects: 0.356684 ms CreateObjectMapping: 0.419187 ms MarkObjects: 4.079928 ms  DeleteObjects: 0.159971 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
